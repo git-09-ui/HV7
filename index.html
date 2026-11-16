@@ -42,8 +42,10 @@
     <meta name="twitter:title" content="HV7 Game – Complete Guide to Features, App & Gaming Experience">
     <meta name="twitter:description" content="Complete guide to HV7 Game features, mobile interface, easy navigation, and getting started safely.">
     <meta name="twitter:image" content="https://hv7.com/hv7-logo.png">
-     <meta name="google-site-verification: googled2a78a2799228359.html" />
-    <meta name="google-site-verification" content="k3oPrXyHPTDIYdeY4ecXA8J7r2BHSmiQ0JB0Jh6ZjZ8" />
+
+    <!-- Google Search Console Verification Tag -->
+    <meta name="google-site-verification" content="k3oPrXyHPTDIYdeY4ecXA8J7r2BHSmiQ0JB0Jh6ZjZ8">
+
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
     [
@@ -554,7 +556,7 @@
         <p style="margin-top: 8px;">&copy; 2026 HV7 Game. All Rights Reserved.</p>
     </footer>
 
-    <!-- Hamburger & Fixed Carousel Script -->
+    <!-- Hamburger & Carousel Script -->
     <script>
         const hamburgerBtn = document.getElementById('hamburgerBtn');
         const navMenu = document.getElementById('navMenu');
@@ -573,7 +575,7 @@
             }
         });
 
-        // Fixed Carousel Slider & Auto-Scroll Logic
+        // Carousel Slider & Auto-Scroll Logic
         const bannerGrid = document.getElementById('bannerGrid');
         const prevBtn = document.getElementById('prevBtn');
         const nextBtn = document.getElementById('nextBtn');
@@ -622,7 +624,6 @@
 
         if (bannerGrid) {
             startAutoScroll();
-            // Pause auto-scroll on hover or touch so user can inspect banners easily
             bannerGrid.addEventListener('mouseenter', stopAutoScroll);
             bannerGrid.addEventListener('mouseleave', startAutoScroll);
             bannerGrid.addEventListener('touchstart', stopAutoScroll, { passive: true });
